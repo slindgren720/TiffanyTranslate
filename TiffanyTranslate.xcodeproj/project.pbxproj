@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83203F591B365B5B001DB249 /* TranslateStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83203F581B365B5B001DB249 /* TranslateStruct.swift */; };
 		8DA32A3D1B3657FE008B909B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA32A3C1B3657FE008B909B /* AppDelegate.swift */; };
 		8DA32A3F1B3657FE008B909B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA32A3E1B3657FE008B909B /* MasterViewController.swift */; };
 		8DA32A411B3657FE008B909B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA32A401B3657FE008B909B /* DetailViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83203F581B365B5B001DB249 /* TranslateStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateStruct.swift; sourceTree = "<group>"; };
 		8DA32A371B3657FE008B909B /* TiffanyTranslate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiffanyTranslate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA32A3B1B3657FE008B909B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA32A3C1B3657FE008B909B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				8DA32A3C1B3657FE008B909B /* AppDelegate.swift */,
 				8DA32A3E1B3657FE008B909B /* MasterViewController.swift */,
 				8DA32A401B3657FE008B909B /* DetailViewController.swift */,
+				83203F581B365B5B001DB249 /* TranslateStruct.swift */,
 				8DA32A421B3657FE008B909B /* Main.storyboard */,
 				8DA32A451B3657FE008B909B /* Images.xcassets */,
 				8DA32A471B3657FE008B909B /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				8DA32A411B3657FE008B909B /* DetailViewController.swift in Sources */,
 				8DA32A3F1B3657FE008B909B /* MasterViewController.swift in Sources */,
 				8DA32A3D1B3657FE008B909B /* AppDelegate.swift in Sources */,
+				83203F591B365B5B001DB249 /* TranslateStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +419,7 @@
 				8DA32A5A1B3657FE008B909B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DA32A5B1B3657FE008B909B /* Build configuration list for PBXNativeTarget "TiffanyTranslateTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				8DA32A5D1B3657FE008B909B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
